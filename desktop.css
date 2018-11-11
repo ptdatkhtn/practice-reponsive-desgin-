@@ -1,0 +1,25 @@
+@media screen and (min-width: 940px) {
+    .view-range{
+        width: 908px;
+    }
+
+    /* class h_wrapper-menu*/
+    .h_wrapper-menu{
+       display: none;
+    }
+
+    /* class h_cart*/
+    .h_cart{
+        background-color: #f8fff7;
+    }
+
+    /* class h_text*/
+    .h_text{
+        display: block;
+    }
+
+    /* class content*/
+    .content{
+
+    }
+}
