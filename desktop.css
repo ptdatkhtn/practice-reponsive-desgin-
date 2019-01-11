@@ -18,8 +18,217 @@
         display: block;
     }
 
-    /* class content*/
-    .content{
+    /* class navMoblie*/
+    .navMoblie{
+        display: none;
+    }
 
+    /* class nav*/
+    .nav{
+        display: flex;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    /* class nav-items*/
+    .nav-items{
+        display: flex;
+    }
+
+    /* class nav-item*/
+    .nav-item{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    /* class nav-dropdown*/
+    .nav-dropdown{
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdownLevel2{
+        position: relative;
+    }
+
+    /* class nav-dropbtn*/
+    .nav-dropbtn{
+    }
+
+    /* class nav-dropdownCont*/
+    .nav-dropdownCont{
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        z-index: 1;
+    }
+
+    /* class nav-dropdownCont a*/
+    .nav-dropdownCont a{
+        color: #242424;
+        padding: 12px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .nav-dropdownCont2{
+        display: none;
+    }
+
+    .nav-dropdownCont a:hover {
+        background-color: #37C9F1;
+    }
+
+    .nav-dropdown:hover .nav-dropdownCont {
+        display: block;
+    }
+
+    .dropdownLevel2:hover .nav-dropdownCont2 {
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .nav-dropdown:hover .nav-dropbtn {
+        background-color: #0C1407;
+        color: #e0d0d0;
+    }
+
+    /* class nav-item*/
+    .nav-item{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    /* class nav-item--sale*/
+    .nav-item--sale{
+        color: #d40808;
+    }
+
+    /* class nav-account*/
+    .nav-account{
+        margin-left: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    /* class belowNav*/
+    .belowNav{
+        display: block;
+        background-color: #050505;
+        height: 4px;
+    }
+
+    /* class con-bottomNav*/
+    .con-bottomNav{
+        display: flex;
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+    }
+
+    .con-img{
+        background-image: url("http://www.themothershipgroup.com/wp-content/uploads/bfi_thumb/mps-conv-store-model2-1024x572-mpesuh64lvoi4rfowzbl4c6im9mk834du4eqd2sc1u.jpg") ;
+        width: 50%;
+        margin-right: auto;
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    /* class con-intro*/
+    .con-intro{
+        width: 50%;
+        margin-left: auto;
+    }
+
+    .con-fav:before{
+        content:"";
+        border-bottom: 1px solid black;
+        width: 5%;
+    }
+
+    .con-fav:after{
+        content: "";
+        border-bottom: 1px solid black;
+        width: 80%;
+    }
+
+    /* class con-items*/
+    .con-items{
+        display: flex;
+    }
+
+    /* class con-favItems*/
+    .con-favItems{
+        width: 50%;
+    }
+
+
+    /* class favItem-img*/
+    .favItem-img{
+        height: 100px;
+        width: 100%;
+        background-size: cover;
+        border: 1px solid #8fa7adf2;
+        padding: 4px;
+        background-color: #f1eaea;
+    }
+
+    /* class favItem-add*/
+    .favItem-add{
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+
+    /* class footer*/
+    .footer{
+        display: flex;
+    }
+
+    /* class footerColumn*/
+    .footerColumn{
+        display: flex;
+    }
+
+    /* class footer-column*/
+    .footer-column{
+
+    }
+
+    /* class spaceColumn*/
+    .spaceColumn{
+        display: block;
+        margin-left: 44px;
+        margin-right: 44px;
+    }
+
+    /* class footer-news*/
+    .footer-news{
+        margin-left: auto;
+
+    }
+
+    /* class newsEnter*/
+    .newsEnter{
+        display: flex;
+        margin: auto;
+    }
+
+    /* class columnEmail*/
+    .columnEmail{
+        margin: auto;
+    }
+
+    /* class space*/
+    .space{
+        display: block;
+    }
+
+    /* class columnSubscribe*/
+    .columnSubscribe{
+        width: 120px;
     }
 }
